@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.introduction{
+    margin-top:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:160px;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subtitle{
+    margin-top:150px;
+}
+
+.bloco1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    z-index: 1;
+}
+.bloco2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    z-index: 1;
+}
+
+.M4letter{
+    display: flex;
+    position: absolute;
+    margin-top: 70px;
+}
+
+.M4fundo{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -300px;
+    margin-left: 250px;
+    z-index: 0;
+}
+
+.serie3letter{
+    display: flex;
+    position: absolute;
+    margin-top: 70px;
+}
+
+.serie3fundo{
+    margin-right: 300px;
+    margin-top: -300px;
+    z-index: 0;
+}
+.bloco3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    z-index: 1;
+}
+.x6letter{
+    display: flex;
+    position: absolute;
+    margin-top: 70px;
+}
+
+.x6fundo{
+    margin-left: 250px;
+    margin-top: -300px;
+    z-index: 0;
+}
